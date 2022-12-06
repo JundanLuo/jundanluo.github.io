@@ -3,12 +3,12 @@ title: Jundan Luo 罗俊丹
 role: CS PhD student at University of Bath
 avatar_filename: avatar.png
 bio: My research interests include intrinsic image decomposition, inverse
-  rendering, augmented reality, and realistic image editing.
+  rendering, augmented reality, and image editing.
 interests:
   - Intrinsic Image Decomposition
   - Inverse Rendering
   - Augmented Reality
-  - Realistic image editing.
+  - Image Editing
 social:
   - icon: envelope
     icon_pack: fas
@@ -54,7 +54,7 @@ email: jl3752@bath.ac.uk
 ---
 I am a CS PhD student in the visual computing group at University of Bath, supervised by Dr. [Christian Richardt](https://richardt.name/), Dr. [Wenbin Li](https://wbli.me/) and Dr. [Nanxuan Zhao](http://nxzhao.com/). I received my M.S. degree at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. [Guofeng Zhang](http://www.cad.zju.edu.cn/home/gfzhang/).
 
-My research interests lie in intrinsic image decomposition (albedo and illumination estimation), inverse rendering, photo-realistic image editing and augmented reality.
+My research interests lie in intrinsic image decomposition (albedo and illumination estimation), inverse rendering, image editing and augmented reality.
 
 <!-- {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF. -->
 
