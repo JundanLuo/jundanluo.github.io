@@ -82,6 +82,10 @@ projects: []
 # slides: example
 ---
 
+Abstract 
+
+Intrinsic image decomposition, i.e. , decomposing a natural image into a reflectance image and a shading image, is used in many augmented reality applications for achieving better visual coherence between virtual contents and real scenes. The main challenge is that the decomposition is ill-posed, especially in indoor scenes where lighting conditions are complicated, while real training data is inadequate. To solve this challenge, we propose NIID-Net, a novel learning-based framework that adapts surface normal knowledge for improving the decomposition. The knowledge learned from relatively more abundant data for surface normal estimation is integrated into intrinsic image decomposition in two novel ways. First, normal feature adapters are proposed to incorporate scene geometry features when decomposing the image. Secondly, a map of integrated lighting is proposed for propagating object contour and planarity information during shading rendering. Furthermore, this map is capable of representing spatially-varying lighting conditions indoors. Experiments show that NIID-Net achieves competitive performance in reflectance estimation and outperforms all previous methods in shading estimation quantitatively and qualitatively. The source code of our implementation is released at https://github.com/zju3dv/NIID-Net.
+
 <!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
