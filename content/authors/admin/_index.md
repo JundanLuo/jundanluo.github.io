@@ -1,73 +1,61 @@
 ---
-# Display name
-title: Alice Wu (吳恩達)
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position
-role: ''
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Organizations/Affiliations
-#organizations:
-#- name: 腾讯
-#  url: ""
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval
-
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+title: Jundan Luo 罗俊丹
+role: CS PhD student at University of Bath
+avatar_filename: avatar.png
+bio: My research interests include intrinsic image decomposition, inverse
+  rendering, augmented reality, and realistic image editing.
+interests:
+  - Intrinsic Image Decomposition
+  - Inverse Rendering
+  - Augmented Reality
+  - Realistic image editing.
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
+    link: mailto:jl3752@bath.ac.uk
+  - display:
+      header: false
+    link: https://twitter.com/JundanLuo
     icon_pack: fab
-    link: https://twitter.com/wowchemy
-  - icon: instagram
+    icon: twitter
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://jundanluo.github.io/
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=8UVYW_MAAAAJ&hl=zh-CN&oi=ao
+  - icon: linkedin
     icon_pack: fab
-    link: https://instagram.com/geocushen
-# Uncomment below for Github link
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
-
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
+    link: https://www.linkedin.com/in/luo-jundan-90920a232/
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
+organizations:
+  - name: University of Bath
+    url: https://www.bath.ac.uk/departments/department-of-computer-science/
+education:
+  courses:
+    - course: PhD in Computer Science
+      institution: 2021--present, University of Bath 
+      # year: 2021
+    - course: MEng in Computer Science and Technology
+      institution: 2020, Zhejiang University
+      # year: 2020
+    - course: BEng in Computer Science and Technology
+      institution: 2017, Zhejiang University
+      # year: 2017
+superuser: true
+# status:
+#   icon: ☕️
+last_name: Luo
+highlight_name: true
+first_name: Jundan
+email: jl3752@bath.ac.uk
 ---
+I am a CS PhD student in the visual computing group at University of Bath, supervised by Dr. [Christian Richardt](https://richardt.name/), Dr. [Wenbin Li](https://wbli.me/) and Dr. [Nanxuan Zhao](http://nxzhao.com/). I received my M.S. degree at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. [Guofeng Zhang](http://www.cad.zju.edu.cn/home/gfzhang/).
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My research interests lie in intrinsic image decomposition (albedo and illumination estimation), inverse rendering, photo-realistic image editing and augmented reality.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+<!-- {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF. -->
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+<!-- Check out my [resumé](/about/) and portfolio below 😍 -->
