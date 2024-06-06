@@ -2,7 +2,7 @@
 # A section created with the Portfolio widget.
 # This section displays content from `content/project/`.
 # See https://wowchemy.com/docs/widget/portfolio/
-widget: portfolio
+widget: pages
 
 # This file represents a page section.
 headless: true
@@ -10,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: 'Recent Projects'
+title: 'Projects'
 subtitle: ''
 
 content:
@@ -34,11 +34,28 @@ content:
   #     tag: CV
   #   - name: NLP
   #     tag: NLP
+content:
+    filters:
+        folders:
+            - projects
+    featured_only: false
+    exclude_featured: false
+    exclude_future: false
+    exclude_past: false
+
+ # Choose how many pages you would like to display (0 = all pages)
+count: 5
+# Choose how many pages you would like to offset by
+# Useful if you wish to show the first item in the Featured widget
+offset: 0
+# Field to sort by, such as Date or Title
+sort_by: 'Date'
+sort_ascending: false
 
 design:
   columns: '1'
-  view: showcase
+  view: compact
   flip_alt_rows: false
   background: {}
-  spacing: {padding: [0, 0, 0, 0]}
+  spacing: {padding: [100, 0, 0, 0]}
 ---

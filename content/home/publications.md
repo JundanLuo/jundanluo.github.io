@@ -2,7 +2,7 @@
 # A section created with the Portfolio widget.
 # This section displays content from `content/project/`.
 # See https://wowchemy.com/docs/widget/portfolio/
-widget: portfolio
+widget: pages
 
 # This file represents a page section.
 headless: true
@@ -34,11 +34,15 @@ content:
   #     tag: CV
   #   - name: NLP
   #     tag: NLP
+content:
+    filters:
+        folders:
+            - publications
 
 design:
   columns: '1'
-  view: showcase
+  view: compact
   flip_alt_rows: false
   background: {}
-  spacing: {padding: [0, 0, 0, 0]}
+  spacing: {padding: [100, 0, 0, 0]}
 ---
