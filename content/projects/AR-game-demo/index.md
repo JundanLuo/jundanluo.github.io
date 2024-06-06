@@ -11,7 +11,7 @@ tags:
 date: 2017-06-01
 # lastmod: 2019-10-10T11:23:53+08:00
 
-featured: false
+featured: true
 
 # abstract: The augmented reality shooting game took place in multiple planar regions in the real world. Move your phone to watch the rabbits and shoot! <br> A SLAM SDK was used to estimate the camera pose. The real-world 3D point cloud was reconstructed by stereo-matching, and I used an image-based segmentation algorithm to extract planes. The game was rendered by Unity3D.
 
@@ -20,7 +20,7 @@ featured: false
 image:
   caption: 'Rabbits are jumping on the real planes: [**\[video\]Jumping rabbits!**](https://www.youtube.com/watch?v=VGroJL4Pago)'
   focal_point: small
-  preview_only: true
+  preview_only: false
 
 links:
 url_video: 'https://www.youtube.com/watch?v=VGroJL4Pago'

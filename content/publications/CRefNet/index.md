@@ -17,23 +17,22 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["Journal article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Transactions on Visualization and Computer Graphics"
+publication: "TVCG 2023"
 publication_short: "TVCG 2023"
 
-abstract: We present CRefNet, a hybrid transformer-convolutional neural network for consistent reflectance estimation in intrinsic image decomposition, achieving superior global and local consistency through a transformer module and rectified gradient filter. 
-
+abstract: We present CRefNet, a hybrid transformer-convolutional deep neural network for consistent reflectance estimation in intrinsic image decomposition. Estimating consistent reflectance is particularly challenging when the same material appears differently due to changes in illumination. Our method achieves enhanced global reflectance consistency via a novel transformer module that converts image features to reflectance features. At the same time, this module also exploits long-range data interactions. We introduce reflectance reconstruction as a novel auxiliary task that shares a common decoder with the reflectance estimation task, and which substantially improves the quality of reconstructed reflectance maps. Finally, we improve local reflectance consistency via a new rectified gradient filter that effectively suppresses small variations in predictions without any overhead at inference time. Our experiments show that our contributions enable CRefNet to predict highly consistent reflectance maps and to outperform the state of the art by 10% WHDR.
 # Summary. An optional shortened abstract.
 summary: TVCG 2023. We present CRefNet, a hybrid transformer-convolutional neural network for consistent reflectance estimation through a transformer module and rectified gradient filter. 
 
 
-tags:
-- Computer Vision
-- Computer Graphics
-- Inverse Rendering
-- Intrinsic Image Decomposition
+#tags:
+#- Computer Vision
+#- Computer Graphics
+#- Inverse Rendering
+#- Intrinsic Image Decomposition
 featured: true
 
 links:

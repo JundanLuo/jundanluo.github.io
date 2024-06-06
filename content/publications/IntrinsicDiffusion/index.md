@@ -22,23 +22,22 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["Conference paper"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Special Interest Group on Computer Graphics and Interactive Techniques
-Conference"
+publication: "SIGGRAPH 2024"
 publication_short: "SIGGRAPH 2024"
 
-abstract: We introduce a novel conditioning mechanism built on top of a pre-trained foundational image generation model to jointly predict multiple intrinsic modalities from an input image.
-  
+abstract: Reasoning about the intrinsic properties of an image, such as albedo, illumination, and surface geometry, is a long-standing problem with many applications in image editing and compositing. Existing solutions to this ill-posed problem either heavily rely on manually designed priors or learn priors from limited datasets that lack diversity. Hence, they fall short in generalizing to in-the-wild test scenarios. In this paper, we show that a large-scale text-to-image generation model trained on a massive amount of visual data can implicitly learn intrinsic image priors. In particular, we introduce a novel conditioning mechanism built on top of a pre-trained foundational image generation model to jointly predict multiple intrinsic modalities from an input image. We demonstrate that predicting different modalities in a collaborative manner improves the overall quality. This design also enables mixing datasets with annotations of only a subset of the modalities during training, contributing to the generalizability of our approach. Our method achieves state-of-the-art performance in intrinsic image decomposition, both qualitatively and quantitatively. We also demonstrate downstream image editing applications, such as relighting and retexturing.
+
 # Summary. An optional shortened abstract.
 summary: SIGGRAPH 2024. We introduce a novel conditioning mechanism built on top of a pre-trained foundational image generation model to jointly predict multiple intrinsic modalities.
 
-tags:
-- Computer Vision
-- Computer Graphics
-- Inverse Rendering
-- Intrinsic Image Decomposition
+#tags:
+#- Computer Vision
+#- Computer Graphics
+#- Inverse Rendering
+#- Intrinsic Image Decomposition
 featured: true
 
 links:

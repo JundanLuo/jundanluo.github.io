@@ -8,27 +8,27 @@ tags:
 # date: 2018-02-01T11:23:53+08:00
 date: 2018-02-01
 
-featured: false
+featured: true
 
 # authors:
 # - Jundan Luo
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+#external_link: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: Placing robots on the reconstructed planes
   focal_point: small
-  preview_only: true
+  preview_only: false
 
-links:
-url_video: ''
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
+#links:
+#url_video: ''
+#url_code: ''
+#url_pdf: ''
+#url_slides: ''
+#url_video: ''
 
 
 # Associated Projects (optional).
@@ -47,6 +47,3 @@ url_video: ''
 # Click the *Slides* button above to demo Academic's Markdown slides feature.
 # {{% /alert %}}
 ---
-<!-- ##### There are two main difficulties:
-  - Noisy and semi-dense 3D point clouds. 
-  - Real-time speed requirement. -->
