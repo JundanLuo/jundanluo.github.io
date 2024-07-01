@@ -22,6 +22,9 @@ sections:
       css_class: light
       background:
         color: white
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
 #        image:
 #          # Add your image background to `assets/media/`.
 #          filename: stacked-peaks.svg
@@ -41,7 +44,10 @@ sections:
     design:
       view: community/article-grid
       fill_image: false
-      columns: 3  
+      columns: 3
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
   - block: collection
     id: projects
     content:
@@ -55,6 +61,9 @@ sections:
       view: community/article-grid
       fill_image: false
       columns: 3
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
 #  - block: collection
 #    content:
 #      title: Recent Publications
@@ -104,5 +113,19 @@ sections:
 #      # Reduce spacing
 #      spacing:
 #        padding: [0, 0, 0, 0]
-
+  - block: collection
+    id: collaborations
+    content:
+      title: Experience & Collaborations
+      filters:
+        folders:
+          - collaborations
+    design:
+      view: community/image-grid
+      fill_image: false
+      columns: 5
+      show_date: false
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 10]
 ---
