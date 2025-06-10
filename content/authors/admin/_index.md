@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Open to work
+role: OPEN TO WORK
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -201,5 +201,3 @@ She received her M.S. degree at the State Key Lab of CAD&CG, Zhejiang University
 and Prof. [Xiaowei Zhou](https://www.xzhou.me/).
 She has interned at [Adobe Research](https://research.adobe.com/), [Alibaba Group](https://www.alibabagroup.com/en-US/about-alibaba-businesses-1496657217451982848), 
 and [SenseTime](https://www.sensetime.com/en).
-Her research spans seven years in intrinsic image decomposition, with current interests in neural rendering and interdisciplinary collaboration (e.g., HCI, fashion, and insect morphology).
-<!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
