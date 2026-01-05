@@ -1,13 +1,16 @@
 ---
-title: "Shadow-aware Object Composition"
+title: "ProjectiveShading: Inserting 3D Objects into Indoor Images with
+Complex Shadows"
 authors:
 - Jundan Luo
+- Xiaolong Wu
 - Nanxuan Zhao
+- Lu Wang
 - Wenbin Li
 - Christian Richardt
 author_notes:
 - 
-date: "2025-01-01"
+date: "2026-01-01"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -17,16 +20,17 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["Working Paper"]
+publication_types: ["Journal article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Submitted"
-publication_short: ""
+publication: "Eurographics 2026"
+publication_short: "Eurographics 2026"
 
-abstract: Estimate spatially varying lighting and shadows. Propose a rendering approach for realistic object composition and shadow interactions in single-view images. 
-  
+abstract: Realistically inserting virtual 3D objects into real-world images requires perceptually coherent shadowing of the object and background scene. Achieving this in single-view indoor scenes with sunlight is challenging due to complex, partially visible occluders and indirect lighting. Environment maps alone cannot produce realistic shadows on virtual objects, and any representation (scene parameters) used for rendering must be practically estimable. We introduce ProjectiveShading, the first automatic method for inverse- and re-rendering that handles bi-directional shadow interactions for realistic object composition. Our key innovation is the sunlight map, a 2D image encoding direct sunlight and arbitrary occlusions. It is generated from single-view estimations using off-the-shelf models and is compatible with standard rendering engines. We also propose algorithms to estimate sunlight direction and to blend virtual and real shadows while preserving background textures. Experiments on synthetic and in-the-wild images show our method outperforms previous approaches.
+
 # Summary. An optional shortened abstract.
-summary: Estimate spatially varying lighting and shadows. Propose a rendering approach for realistic object composition and shadow interactions in single-view images. 
+summary: An automatic method for realistically compositing virtual 3D objects into real indoor images, enabling consistent shadowing for both virtual objects and the real background under occluded direct lighting.
+  
 
 #tags:
 #- Computer Vision
@@ -46,8 +50,8 @@ links:
 #   url: "https://www.youtube.com/watch?v=BvoYwCdzoZU"
 # - name: "project"
 #   url: "https://intrinsicdiffusion.github.io/"
-# - name: "code"
-#   url: "https://github.com/JundanLuo/CRefNet"
+ - name: "code"
+   url: "https://github.com/JundanLuo/ProjectiveShading/"
 # url_pdf: ''
 # url_project: ''
 # url_code: ''
@@ -61,7 +65,7 @@ links:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   placement: 3
-  caption: 'Input single-view images and object-insertion results.'
+  caption: 'Input single-view image and our composition result.'
   focal_point: small
   preview_only: false
 
