@@ -40,8 +40,8 @@ summary: An automatic method for realistically compositing virtual 3D objects in
 featured: true
 
 links:
-# - name: "pdf"
-#   url: 'https://purehost.bath.ac.uk/ws/portalfiles/portal/304058985/Jundan_s_TVCG_submission.pdf'
+ - name: "pdf"
+   url: 'https://drive.google.com/file/d/1Xp3y0jO9RPFrLsixQ1b-SWtrspF6X9NL/'
 # - name: "supp doc"
 #   url: "https://drive.google.com/file/d/13yi0vXYD1Ph5-noZr_Ndx0_SHHtoQrwq/view?usp=sharing"
 # - name: "supp materials"

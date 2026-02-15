@@ -47,9 +47,10 @@ profiles:
   #   url: https://orcid.org/
 
 interests:
-  - Intrinsic Image Decomposition
-  - Illumination Estimation
-  - Neural Rendering
+  - Material and illumination estimation
+  - Photorealistic editing and synthesis
+  - Generative and multi-modal learning
+  - Modeling of natural subjects
   - Computer Vision & Graphics
 
 education:
